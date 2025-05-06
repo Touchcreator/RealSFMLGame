@@ -1,6 +1,8 @@
 #include <map>
+#include <iostream>
+#include <optional>
 
-#include "SFML/Graphics.hpp"
+#include <SFML/Graphics.hpp>
 #include "SFML/Audio.hpp"
 
 #include "Game.hpp"
@@ -63,7 +65,7 @@ namespace Touch
 
                 if (event->is<sf::Event::MouseButtonReleased>())
                 {
-                    
+                    std::cout << "lets say you just shot a bullet" << std::endl;
                 }
             }
 
