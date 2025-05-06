@@ -150,10 +150,16 @@
     <ClInclude Include="Game.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="assets\bullet.png" />
     <Image Include="assets\whitedude.png" />
   </ItemGroup>
   <ItemGroup>
     <Media Include="assets\Striker.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
+    <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

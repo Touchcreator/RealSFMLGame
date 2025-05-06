@@ -37,8 +37,16 @@
     <Image Include="assets\whitedude.png">
       <Filter>Resource Files</Filter>
     </Image>
+    <Image Include="assets\bullet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <Media Include="assets\Striker.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
+    <None Include="README.md" />
   </ItemGroup>
 </Project>
